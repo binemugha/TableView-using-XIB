@@ -12,7 +12,7 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="TableViewXIB" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -24,7 +24,7 @@
                             <constraint firstAttribute="height" constant="70" id="yqq-s1-8i9"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to my example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB7-FZ-yZa">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to my example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB7-FZ-yZa">
                         <rect key="frame" x="98" y="35" width="222" height="20"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,7 +34,9 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="sQu-qo-33a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9Dr-Ej-Yz4"/>
+                    <constraint firstItem="pB7-FZ-yZa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="9KF-AT-Jaz"/>
                     <constraint firstAttribute="trailing" secondItem="pB7-FZ-yZa" secondAttribute="trailing" id="KxE-uv-7P8"/>
+                    <constraint firstAttribute="bottom" secondItem="pB7-FZ-yZa" secondAttribute="bottom" constant="35" id="Y9L-gV-6x5"/>
                     <constraint firstItem="sQu-qo-33a" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dFe-e4-kD9"/>
                     <constraint firstItem="sQu-qo-33a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="uuy-UO-OzK"/>
                     <constraint firstItem="pB7-FZ-yZa" firstAttribute="leading" secondItem="sQu-qo-33a" secondAttribute="trailing" constant="2" id="wOs-CP-Cdn"/>
